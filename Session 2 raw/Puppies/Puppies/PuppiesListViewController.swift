@@ -16,9 +16,9 @@ class PuppiesListViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: puppyId, for: indexPath) as! PuppyCellTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: puppyId, for: indexPath)
         cell.textLabel?.text = "Puppy \(indexPath.row)"
-//        cell.imageView?.image = UIImage
+        cell.imageView?.image = UIImage(named: "pic2.jpg")
         return cell
     }
     
