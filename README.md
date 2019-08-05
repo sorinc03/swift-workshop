@@ -6,6 +6,10 @@ This course teaches you about the Swift language and how to create an iOS app fr
 
 We went through the Swift language, Swift Playgrounds and we built our first app featuring a puppy! Please find the files [here](https://github.com/csr/swift-workshop/tree/master/Session%201) if you need to catch up with the session project.
 
+### Session 2
+
+We explored the power of AutoLayout, stack views and table views. Please find the files [here](https://github.com/csr/swift-workshop/tree/master/Session%202/Puppies).
+
 ### Questions
 
 Please reach out to us on the #swift-workshop channel on Slack.
