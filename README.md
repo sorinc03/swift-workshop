@@ -10,6 +10,14 @@ We went through the Swift language, Swift Playgrounds and we built our first app
 
 We explored the power of AutoLayout, stack views and table views. Please find the files [here](https://github.com/csr/swift-workshop/tree/master/Session%202/Puppies).
 
+### Session 3
+
+We did a coding challenge! Let's see if we can build a list featuring all the puppies. 3... 2... 1.. go! Don't worry, we'll be helping out along the session.
+
+### Session 4
+ 
+We reviewed the coding challenge and introduced new concepts such as navigating between view controllers using navigation controllers and animations.
+
 ### Questions
 
 Please reach out to us on the #swift-workshop channel on Slack.
