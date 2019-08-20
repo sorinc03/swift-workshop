@@ -39,7 +39,19 @@ class PuppiesListViewController: UIViewController, UITableViewDataSource, UITabl
             let puppy = Puppy(name: "Puppy \(puppyIndex)", image: image)
             puppies.append(puppy)
         }
-        // Do any additional setup after loading the view.
+
+        var puppyUrlStrings = [
+            "https://www.dropbox.com/s/zknhv68f8j3aaps/puppy-1.jpg?dl=1",
+            "https://www.dropbox.com/s/p93fnnzkj4ra3xj/puppy-2.jpg?dl=1",
+            "https://www.dropbox.com/s/b5hubbodye2pggv/puppy-3.jpg?dl=1",
+            "https://www.dropbox.com/s/9xhu5r8bjbww79p/puppy-4.jpg?dl=1",
+            "https://www.dropbox.com/s/thei9rrbfiu2ne1/puppy-5.jpg?dl=1",
+            "https://www.dropbox.com/s/7r2qbwwfy79pcxy/puppy-6.jpg?dl=1",
+            "https://www.dropbox.com/s/jxksbe3140tff6x/puppy-7.jpg?dl=1",
+            "https://www.dropbox.com/s/2sn7ajgyai9bdzr/puppy-8.jpg?dl=1",
+            "https://www.dropbox.com/s/nj9eib2m1eu2zqs/puppy-9.jpg?dl=1",
+            "https://www.dropbox.com/s/bjmmagbus13isxw/puppy-10.jpg?dl=1"
+        ]
     }
     
 
