@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         welcomeLabel.text = puppyName
         imageView.image = puppyImage
 
-        //textLabel.alpha = 0
+        textLabel.alpha = 0
         textLabel.textColor = .green
     }
 
@@ -36,14 +36,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sliderDragged(_ sender: UISlider) {
-        sliderValue.text = "\(sender.value)"
+        sliderValue.text = "\(Int(sender.value))%"
 
         if Int(sender.value) == 100 {
             UIView.animate(withDuration: 1.0) {
-                self.textLabel.textColor = .red
+                self.textLabel.alpha = 1.0
             }
         } else {
-            self.textLabel.textColor = .green
+            self.textLabel.alpha = 0
         }
     }
 }
